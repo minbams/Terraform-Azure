@@ -6,6 +6,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name = "MyFristResourceGroup" 
+    name = "MySecondResourceGroup" 
     location = "westeurope"
 }
